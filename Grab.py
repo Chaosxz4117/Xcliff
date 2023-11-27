@@ -15,7 +15,7 @@ ctypes.windll.kernel32.SetConsoleTitleW("IP Grabber | Xcliff | v" + __version__)
 class AutoUpdate: #credit to K.Dot for this shit
     def __init__(self):
         self.code = (
-            "https://raw.githubusercontent.com/Cliffsus4117/Xcliff-IPgrabber/main/Grab.py"
+            "https://raw.githubusercontent.com/Cliffsus4117/Xcliff/main/Grab.py"
         )
         self.update()
 
